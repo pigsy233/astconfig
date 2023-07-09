@@ -7,7 +7,23 @@ return {
     opts = function(_, opts)
       -- add more things to the ensure_installed table protecting against community packs modifying it
       opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
-        -- "lua_ls",
+        "lua_ls",
+        "neocmake",
+        "clangd",
+        "bashls",
+        "cssls",
+        "gopls",
+        "jsonls",
+        "tsserver",
+        "html",
+        "marksman",
+        "pyright",
+        "sqlls",
+        "rust_analyzer",
+        "ruby_ls",
+        "vuels",
+        "lemminx",
+        "yamlls",
       })
     end,
   },
@@ -18,8 +34,33 @@ return {
     opts = function(_, opts)
       -- add more things to the ensure_installed table protecting against community packs modifying it
       opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
-        -- "prettier",
-        -- "stylua",
+        "prettier",
+        "stylua",
+        "cmakelang",
+        "cmakelint",
+        "cpplint",
+        -- "cspell",
+        "jsonlint",
+        "luacheck",
+        "markdownlint",
+        "pylint",
+        "yamllint",
+        "sqlfluff",
+        "standardjs",
+        "standardrb",
+        "textlint",
+        "clang-format",
+        "fixjson",
+        "golines",
+        "htmlbeautifier",
+        "pyink",
+        "rubyfmt",
+        "rustywind",
+        "shellharden",
+        "sql-formatter",
+        "ts-standard",
+        "xmlformatter",
+        "yamlfmt",
       })
     end,
   },
@@ -29,7 +70,16 @@ return {
     opts = function(_, opts)
       -- add more things to the ensure_installed table protecting against community packs modifying it
       opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
-        -- "python",
+        "python",
+        "bash-debug-adapter",
+        "chrome-debug-adapter",
+        "codelldb",
+        "cpptools",
+        "debugpy",
+        "delve",
+        "firefox-debug-adapter",
+        "go-debug-adapter",
+        "js-debug-adapter",
       })
     end,
   },
